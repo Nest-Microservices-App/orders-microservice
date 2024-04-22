@@ -5,14 +5,19 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-# Products Microservice
-This is the Products Microservice for the Nest-Microservices Application.
+# Orders Microservice
+This is the Orders Microservice for the Nest-Microservices Application.
 
 To run the project follow these steps:
 
 ## Install the dependencies
 ```
 npm i
+```
+
+## Setup the database with docker
+```
+docker compose up -d
 ```
 
 ## Create the prisma migrations
