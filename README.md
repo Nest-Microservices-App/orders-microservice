@@ -31,6 +31,11 @@ Rename the .env.template to .env and set the environment variables
 - PORT=
 - DATABASE_URL=
 
+## Setup the Nats server
+```
+docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats
+```
+
 ## Run the project
 ```
 npm run start:dev
